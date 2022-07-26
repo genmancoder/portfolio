@@ -1,38 +1,271 @@
-.App {
-  text-align: center;
+.App-header {  
+  padding: 10px;
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.App-header--wrapper{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.App-navigation ul{
+  list-style: none;
+}
+.App-navigation ul li{
+  display: inline;
+  margin-right: 10px;
+}
+.App-navigation ul li a{
+  text-decoration: none;
+  color: #dbdbdb;
+  line-height: 1;
+  height: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-navigation ul li a:hover{  
+  color: #682ae9;
+}
+
+.App-branding{
+  color: #682ae9;
+}
+
+.App-content{
+  width: 70%;
+  margin: auto;
+}
+
+.Static-div{
+  display: flex;
+  align-items: center;
+  height: 90vh; 
+  
+}
+
+.Front{
+  display: flex;
+  align-items: center;
+  height: 90vh;  
+}
+
+.Front-main{
+  padding: 10px;
+  width: 100%;
+}
+
+.Typewriter__wrapper{
+  color: #682ae9;
+}
+
+
+.area{
+  /* background: #4e54c8;   */
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  width: 100%;
+  /* height:100vh; */
+  
+ 
+}
+
+.circles{
+  z-index: 67;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
   }
+
+}
+.page-title{
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.text-primary{
+  color: #682ae9;
+}
+.text-secondary{
+  color: darkgrey;  
+}
+.text-added-padding{
+  padding: 8px;
+}
+.text-experience-header{
+  color: #682ae9;  
+  font-weight: 700;
+}
+.mt-8{
+  margin-top: 8px;
+}
+.mt-10{
+  margin-top: 8px;
+}
+
+/* About */
+.About-primary--links ul li{
+display: inline;
+margin-right: 10px;
+}
+.About-primary--links ul li a{
+  text-decoration: none;  
+  color: #682ae9;
+}
+.About-primary--skills{
+  margin-top: 16px;
+}
+.About-primary--skills div{  
+
+}
+
+.About-primary-skills--list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.About-primary-skills--list div span{
+  display: flex;
+  margin-top: 3px;
+}
+
+/* Projects */
+.Project-list--div--wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Project-list--overview{
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 12px;
+  border-radius: 4px;
+  min-height: 250px;
+  margin-right: 8px;
+}
+.Project-list--overview p{
+  padding: 8px;
+}
+.text-project-header{
+  color: #682ae9;  
+  font-weight: 700;
+}
+.Project--button a{
+  text-decoration: none;
+  color: #682ae9;  
+}
+.Project--button a:hover{  
+  color:#dbdbdb;  
 }

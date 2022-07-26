@@ -1,0 +1,26 @@
+.Footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Footer-inner{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-tools ul li{
+    display: inline;    
+    margin-right: 10px;    
+    align-items: center;
+
+}
