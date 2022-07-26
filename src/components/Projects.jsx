@@ -41,7 +41,7 @@ const Projects = () => {
                     <div className="Project-list--overview">
                         <h2 className='text-project-header'>Amazon Clone</h2>
                         <div className='Project--button'>
-                            <a  target="_blank" href='#'>Github Link</a>
+                            <a  target="_blank" href='https://github.com/genmancoder/ecommerce-amazon-clone-app'>Github Link</a>
                             
                         </div>
                         <div>
