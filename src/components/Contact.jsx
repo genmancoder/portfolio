@@ -9,8 +9,11 @@ const Contact = () => {
                 <div className='Contact-links'>
                     <ul>
                         <li>Email: genmansystems@gmail.com</li>
-                        <li>Contact #: 09663523468</li>
+                        <li>Contact #: 09663523468</li>                        
+                    </ul>
+                    <ul>
                         <li>LinkedIn: linkedin.com/in/john-ray-paulin-75077051</li>
+                        <li>GitHub: github.com/genmancoder</li>
                     </ul>
                 </div>
             </div>
