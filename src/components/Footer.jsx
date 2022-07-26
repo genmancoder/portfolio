@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="Footer">
         <div className="Footer-inner">
         <div>
-            <p>
+            
             <Typewriter className="Front-typewritten"  
             onInit={(typewriter)=> {        
             typewriter                
@@ -18,7 +18,7 @@ const Footer = () => {
             .start();
             }}
             />
-            </p>
+            
             <p>All Rights Reserved 2022. johnrpx</p>
         </div>
         <div className="Footer-tools">            
