@@ -49,7 +49,7 @@ const Projects = () => {
                         <p>Tech: ReactJS, Redux, Redux-thunk, Axios</p>
                         </div>
                         <div>
-                            <img src='https://github.com/genmancoder/monstarlabmovies/raw/master/src/images/monstarlab.png' width="350" />
+                            <img src='https://github.com/genmancoder/ecommerce-amazon-clone-app/blob/vid-lesson-9/src/images/amaz.png' width="350" />
                         </div>
                         
                     </div>
