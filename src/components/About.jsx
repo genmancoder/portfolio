@@ -7,9 +7,9 @@ const About = () => {
         <h1 className='page-title'>about (<span className="text-primary">johnrpx</span>)</h1>
         <div className="About-primary--links">
             <ul>
-                <li><a href="/linkedin">Linkedin</a></li>
-                <li><a href="/linkedin">Github</a></li>
-                <li><a href="/linkedin">Download my CV</a></li>
+                <li><a href="https://www.linkedin.com/in/john-ray-paulin-75077051/">Linkedin</a></li>
+                <li><a href="https://github.com/genmancoder">Github</a></li>
+                <li><a href="#">Download my CV</a></li>
             </ul>
             <p className="mt-10">Frontend developer heavily influenced by storytelling, interactions, and UX. Addicted to music, visual arts, and games.
 From Philippines, based in Mati City.</p>
