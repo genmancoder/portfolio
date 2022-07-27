@@ -4,6 +4,7 @@ const Projects = () => {
   return (
     <div className="Static-div">
         <div>
+        <div className="div-spacer"></div>
         <h1 className='page-title'>Projects</h1>
             <div className="Project-list--div">
                 <div className="Project-list--div--wrapper">
@@ -55,28 +56,6 @@ const Projects = () => {
                     </div>
 
                     <div className="Project-list--overview">
-                        <h2 className='text-project-header'>ToDo List</h2>
-                        <div className='Project--button'>
-                            <a  target="_blank" href='https://github.com/genmancoder/monstarlabmovies'>Github Link</a>
-                            
-                        </div>
-                        <div>
-                        <p>[ Currently updating my portfolio to include previous projects. ].</p>
-                        <p>[ To Follow ]</p>
-                        </div>
-                        <div>
-                            <img src='https://github.com/genmancoder/monstarlabmovies/raw/master/src/images/monstarlab.png' width="350" />
-                        </div>
-                        
-                    </div>
-
-                    
-
-                </div>
-
-
-                <div className="Project-list--div--wrapper">
-                    <div className="Project-list--overview">
                         <h2 className='text-project-header'>ReactJS Admin Dashboard</h2>
                         <div className='Project--button'>
                             <a target="_blank" href='https://github.com/genmancoder/admindashboard'>Github Link</a>                            
@@ -89,11 +68,13 @@ const Projects = () => {
                             <img src='https://github.com/genmancoder/admindashboard/raw/master/src/images/dash.png?raw=true' width="350" />
                         </div>
                         
-                    </div>                   
+                    </div> 
 
                     
 
                 </div>
+
+               
 
             </div>
         </div>

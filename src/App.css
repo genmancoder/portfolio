@@ -5,6 +5,7 @@
   left: 0;
   top: 0;
   width: 100%;
+  display: inline;
 }
 .App-header--wrapper{
   align-items: center;
@@ -44,8 +45,8 @@
 .Static-div{
   display: flex;
   align-items: center;
-  height: 90vh; 
-  
+  min-height: 90vh; 
+  margin-top: 12px;
 }
 
 .Front{
@@ -212,6 +213,10 @@
 }
 .mt-10{
   margin-top: 8px;
+}
+.div-spacer{
+  height: 20px;
+  margin-top: 10px;
 }
 
 /* About */
