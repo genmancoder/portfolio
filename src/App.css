@@ -243,6 +243,7 @@ margin-right: 10px;
 
 /* Projects */
 .Project-list--div--wrapper{
+  margin-top: 12px;
   display: flex;
   justify-content: space-around;
 }
