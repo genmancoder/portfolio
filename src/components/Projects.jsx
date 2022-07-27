@@ -82,7 +82,7 @@ const Projects = () => {
                             <a target="_blank" href='https://github.com/genmancoder/admindashboard'>Github Link</a>                            
                         </div>
                         <div>
-                        <p>This tool will let you save your most commonly used snippets or fragments of code from different programming languages.</p>
+                        <p>Admin Dashboard built with ReactJS, ContextAPI, Tailwind CSS and more.</p>
                         <p>Tech: ReactJS, Context API</p>
                         </div>
                         <div>
