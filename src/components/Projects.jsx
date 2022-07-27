@@ -73,6 +73,28 @@ const Projects = () => {
                     
 
                 </div>
+
+
+                <div className="Project-list--div--wrapper">
+                    <div className="Project-list--overview">
+                        <h2 className='text-project-header'>ReactJS Admin Dashboard</h2>
+                        <div className='Project--button'>
+                            <a target="_blank" href='https://github.com/genmancoder/admindashboard'>Github Link</a>                            
+                        </div>
+                        <div>
+                        <p>This tool will let you save your most commonly used snippets or fragments of code from different programming languages.</p>
+                        <p>Tech: ReactJS, Context API</p>
+                        </div>
+                        <div>
+                            <img src='https://github.com/genmancoder/admindashboard/raw/master/src/images/dash.png?raw=true' width="350" />
+                        </div>
+                        
+                    </div>                   
+
+                    
+
+                </div>
+
             </div>
         </div>
     </div>
