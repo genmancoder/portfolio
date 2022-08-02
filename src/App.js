@@ -13,17 +13,26 @@ import {
   Link  
 } from "react-router-dom";
 
+
+
 function App() {
   return (
     <Router>
+    <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full '>
+    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative">
+    
+    </div>
+    </div>
     <div className="App">
       <header className="App-header">      
         <div className="App-header--wrapper">
         <div className="App-branding">
           <span>johnrpx</span>
+          <h1 className='text-3xl font-bold underline'>Tailwind all the way.</h1>
         </div>
         <div className="App-navigation">
           <ul>
+            
             <li><Link to="/">.is()</Link></li>
             <li><Link to="/projects">.work()</Link></li>
             <li><Link to="/about">.about()</Link></li>
