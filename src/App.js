@@ -13,13 +13,14 @@ import {
   Route,
   Link  
 } from "react-router-dom";
+import Header from './components/Header';
 
 
 
 function App() {
   return (
     <Router>
-
+    <Header/>
     <header>
       <div className='container'>
         <div>johnrpx</div>
