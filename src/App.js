@@ -29,6 +29,9 @@ function App() {
         <div className="App-branding">
           <span>johnrpx</span>
           <h1 className='text-3xl font-bold underline'>Tailwind all the way.</h1>
+          <div className="grid grid-cols-10 gap-2">
+            <div className='bg-sky-50 aspect-square'></div>
+          </div>
         </div>
         <div className="App-navigation">
           <ul>
