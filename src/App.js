@@ -21,11 +21,11 @@ function App() {
   return (
     <Router>
     <Header/>
-    <header>
+    {/* <header>
       <div className='container'>
         <div>johnrpx</div>
       </div>
-    </header>
+    </header> */}
 
     <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full '>
     <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative">
