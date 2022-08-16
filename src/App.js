@@ -20,7 +20,7 @@ import Header from './components/Header';
 function App() {
   return (
     <Router>
-    <Header/>
+    {/* <Header/> */}
     {/* <header>
       <div className='container'>
         <div>johnrpx</div>
@@ -28,9 +28,7 @@ function App() {
     </header> */}
 
     <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full '>
-    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative">
     
-    </div>
     </div>
     <div className="App">
       <header className="App-header">      
@@ -39,7 +37,7 @@ function App() {
           <span>johnrpx</span>
           <h1 className='text-3xl font-bold underline'>Tailwind all the way.</h1>
           <div className="grid grid-cols-10 gap-2">
-            <div className='bg-sky-50 aspect-square'></div>
+            
           </div>
         </div>
         <div className="App-navigation">
