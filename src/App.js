@@ -27,8 +27,15 @@ function App() {
       </div>
     </header> */}
 
-    <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full '>
+    <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full h-6 flex'>
     
+        <ul>
+          <li>Test</li>
+          <li>Test</li>
+        </ul>
+        <div>
+          <h1>Genman</h1>
+        </div>
     </div>
     <div className="App">
       <header className="App-header">      
