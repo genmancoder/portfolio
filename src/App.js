@@ -3,19 +3,6 @@ import './App.css';
 import Footer from './components/Footer';
 
 
-import Front from './pages/Front';
-
-import {About, Contact, Experience, Portfolio, Projects, Services} from './components/index'
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link  
-} from "react-router-dom";
-import Header from './components/Header';
-
-
 
 function App() {
   return (
