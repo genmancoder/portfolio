@@ -86,8 +86,8 @@ function App() {
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">          
                 
                 
-                <div className="mt-4 md:mt-0 text-center">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-green-400">John Ray D. Paulin </h2>
+                <div className="mt-4 md:mt-0 text-center -mr-28">
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-green-900 dark:text-green-400">John Ray D. Paulin </h2>
                     <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">                    
                             
                     </p>
@@ -96,12 +96,13 @@ function App() {
                                 strings: ['Hi There!', 'I am a Frontend Developer.'],
                                 autoStart: true,
                                 loop: true,
+                                wrapperClassName: 'text-2xl text-gray-800 dark:text-gray-400 mb-8',
+                                cursorClassName: 'text-2xl text-gray-800 dark:text-green-400'
                             }}
                             />
-                    <div className='w-[100%] min-h-fit border-1 rounded dark:bg-slate-500 dark:border-slate-700 p-2'>
+                    <div className='w-[100%] min-h-fit border-1 rounded dark:bg-slate-500 dark:border-slate-700 p-2 mt-3'>
                         <code>
-                            HTML, CSS, PHP, Javascript, ReactJS, TailwindCSS, Bootstrap, MaterialUI, Context API, Redux Toolkit<br/>
-                            Others: Java, Wordpress, Python, GitHub Actions (CI/CD), Ubuntu Server, Shopify Apps, GCP, NodeJS, GTM
+                            I design and code beautifully simple things and I love what I do.
                         </code>
                     </div>
                 </div>
@@ -113,9 +114,13 @@ function App() {
 
         
 
-            <section className='mt-0 flex justify-around py-10 container px-5'>
+            <section className='mt-0 justify-around py-10 container px-5'>
                 {/* timeline */}
-
+                <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Experience</h2>
+                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
+                </div>
+                <div className='flex justify-around'>
                 <div className='p-3'>
                   
                   <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
@@ -149,29 +154,28 @@ function App() {
                 </div>
 
 
+                <div className='p-3 flex justify-center align-middle h-32'>
+                            <h2 className='text-gray-800 dark:text-slate-600 align-'>Test</h2>
+                </div>
+                </div> 
+                
+
+
+
+
                 {/* timeline */}
 
 
-                <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img className="rounded-t-lg" src="https://avatars.githubusercontent.com/u/74034797?s=400&u=8d250db9bceb4f7415526ea5b276c203f10e3fa9&v=4" alt=""/>
-                    </a>
-                    <div className="p-5">
-                        <a href="#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">John Ray D. Paulin</h5>
-                        </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Fullstack Developer</p>
-                        <a href="#" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Contact me.
-                            <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                        </a>
-                    </div>
-                </div>
+                
 
             </section>
 
             
             <section className="bg-white dark:bg-gray-900 mt-0">
+            <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Projects</h2>
+                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
+            </div> 
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image" />
                 <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image" />
@@ -347,47 +351,8 @@ function App() {
       
 <footer className=" p-4 bg-white sm:p-6 dark:bg-gray-900">
     <div className="md:flex md:justify-between container">
-        <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-8 sm:w-8" alt="FlowBite Logo"/>
-                <span className="text-gray-800 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Genman</span>
-            </a>
-        </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                <ul className="text-gray-600 dark:text-gray-400">
-                    <li className="mb-4">
-                        <a href="#" className="hover:underline">Genman</a>
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                <ul className="text-gray-600 dark:text-gray-400">
-                    <li className="mb-4">
-                        <a href="https://github.com/genmancoder" className="hover:underline ">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                <ul className="text-gray-600 dark:text-gray-400">
-                    <li className="mb-4">
-                        <a href="#" className="hover:underline">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
+        
     </div>
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
     <div className="sm:flex sm:items-center sm:justify-between container">
