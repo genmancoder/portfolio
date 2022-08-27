@@ -60,7 +60,10 @@
 }
 
 .Typewriter__wrapper{
-  color: #292929;
+  
+  padding: 12px;
+  font-size: 18px;
+  color:rgba(255, 255, 255, 0.2)
 }
 
 
