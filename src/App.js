@@ -120,7 +120,7 @@ function App() {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Experience</h2>
                 <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
                 </div>
-                <div className='flex justify-around'>
+                <div className='flex justify-around sm:flex-col'>
                 <div className='p-3'>
                   
                   <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
@@ -155,7 +155,7 @@ function App() {
 
 
                 <div className='p-3 flex justify-center align-middle h-32'>
-                            <h2 className='text-gray-800 dark:text-slate-600 align-'>Test</h2>
+                            
                 </div>
                 </div> 
                 
