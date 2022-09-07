@@ -28,7 +28,7 @@ function App() {
             {
                 props =>(
                     <div style={props}>
-                        <header className='h-20 w-full'>
+                        <header className='h-20 w-full fixed z-50'>
                             <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 h-[100%]">
                                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                                 <a href="" className="flex items-center">
@@ -57,12 +57,12 @@ function App() {
                                     <li>
                                         <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tech Stack</a>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                                    </li>
+                                    </li> */}
                                     </ul>
                                 </div>
 
@@ -102,7 +102,7 @@ function App() {
                             />
                     <div className='w-[100%] min-h-fit border-1 rounded dark:bg-slate-500 dark:border-slate-700 p-2 mt-3'>
                         <code>
-                            I design and code beautifully simple things and I love what I do.
+                            A work in progress.
                         </code>
                     </div>
                 </div>
@@ -111,84 +111,8 @@ function App() {
                 </div>
             </div>
             </section>
-
-        
-
-            <section className='mt-0 justify-around py-10 container px-5'>
-                {/* timeline */}
-                <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Experience</h2>
-                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
-                </div>
-                <div className='flex justify-around'>
-                <div className='p-3'>
-                  
-                  <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
-                      <li className="mb-10 ml-4">
-                          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Davao Oriental State University</time>
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Senior Lecturer</h3>
-                          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Programming: Java, JavaFX, PHP</p>
-                          
-                      </li>
-                      <li className="mb-10 ml-4">
-                          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Xent Enterprises</time>
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Fullstack Developer</h3>
-                          <p className="text-base font-normal text-gray-500 dark:text-gray-400">Techs: PHP, ReactJS, NodeJS, Javascript</p>
-                      </li>
-                      <li className="ml-4 mb-10">
-                          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mobi Media Associates</time>
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Fullstack Developer / Mobile Developer</h3>
-                          <p className="text-base font-normal text-gray-500 dark:text-gray-400">Techs: PHP, jQuery, Bootstrap, Android</p>
-                      </li>
-                      <li className="mb-10 ml-4">
-                          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Digital Refresh</time>
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Frontend Developer</h3>
-                          <p className="text-base font-normal text-gray-500 dark:text-gray-400">Techs: PHP, jQuery, Bootstrap, MySQL</p>
-                      </li>
-                  </ol>
-
-                </div>
-
-
-                <div className='p-3 flex justify-center align-middle h-32'>
-                            <h2 className='text-gray-800 dark:text-slate-600 align-'>Test</h2>
-                </div>
-                </div> 
-                
-
-
-
-
-                {/* timeline */}
-
-
-                
-
-            </section>
-
-            
-            <section className="bg-white dark:bg-gray-900 mt-0">
-            <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Projects</h2>
-                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
-            </div> 
-            <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image" />
-                <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image" />
-                <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">This portfolio is a work in progress...</p>
-                    <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                        Get started
-                        <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                    </a>
-                </div>
-            </div>
-            </section>
+      
+           
 
 
             {/* Projects */}
@@ -325,24 +249,7 @@ function App() {
 
             {/* Contact Me */}
 
-            <section className="bg-white dark:bg-gray-900 mt-0">
-            <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Contact Me</h2>
-            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web projects created using different tech stacks.</p>
-            </div> 
-            <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">          
-                
-                
-                <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">This portfolio is a work in progress...</p>
-                    <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                        Get started
-                        <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                    </a>
-                </div>
-            </div>
-            </section>
+            
 
 
         </article>        
