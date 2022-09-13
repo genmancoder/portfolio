@@ -1,4 +1,4 @@
-![alt text](https://github.com/genmancoder/portfolio/blob/staging/src/assets/cta.png)
+![alt text](https://github.com/genmancoder/portfolio/blob/staging/src/assets/cover.png)
 
 
 # Getting Started with Create React App
