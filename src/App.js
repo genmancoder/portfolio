@@ -31,9 +31,9 @@ function App() {
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-8 md:grid md:grid-cols-2 sm:py-5 lg:px-6">          
                 
                 <div className='flex justify-center mb-3'>
-                    <div className='bg-slate-800/80 min-h-32 w-4/5 rounded-md flex flex-col justify-center p-4 text-center'>
+                    <div className='bg-slate-800/80 min-h-32 w-4/5 rounded-md flex flex-col justify-center p-4 text-center '>
 
-                            <h1 className='text-green-400 text-2xl'>John Ray Paulin</h1>
+                            <h1 className='text-green-400 text-2xl'>John Ray Paulin <span className='-m-6 font-bold animate-ping'>|</span></h1>
                             <p className='text-gray-200 sm:text-xs'>/ Software dev. / Front & Back. / </p>
                             <p className='text-gray-200 sm:text-[9px] mt-2 animate-bounce'>/ A work in progress. / </p>
                     </div>
