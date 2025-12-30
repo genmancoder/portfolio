@@ -58,7 +58,7 @@ export default function HeroSection() {
               </div>
 
               {/* Social Links */}
-              <div className="flex gap-3 pt-4">
+              <div className="flex gap-3 pt-4 justify-center">
                 <a
                   href="https://github.com"
                   target="_blank"
