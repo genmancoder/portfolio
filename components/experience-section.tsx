@@ -57,24 +57,24 @@ export default function ExperienceSection() {
         {/* Experience Timeline */}
         <div className="space-y-0 relative">
           {/* Timeline line */}
-          <div className="absolute left-6 sm:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent to-muted opacity-20" />
+          <div className="absolute left-6 sm:left-8 top-0 bottom-0 w-0.5 bg-white from-accent to-muted opacity-20" />
 
           {experiences.map((exp, index) => {
             const Icon = exp.icon
             return (
-              <div key={index} className="relative pb-12 last:pb-0">
+              <div key={index} className="relative pb-6 last:pb-0">
                 {/* Timeline dot */}
                 <div className="absolute left-0 sm:left-0 top-0 w-14 sm:w-16 h-14 sm:h-16 flex items-center justify-center">
-                  <div className="w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent/10 border-2 border-accent flex items-center justify-center">
-                    <Icon size={18} className="text-accent" />
+                  <div className="w-8 sm:w-10 h-8 sm:h-10 rounded-full border-2 border-white/90 opacity-70 flex items-center justify-center">
+                    <Icon size={18} className="text-white" />
                   </div>
                 </div>
 
                 {/* Content */}
                 <div className="ml-20 sm:ml-28 pt-2">
                   <div className="mb-2">
-                    <h3 className="text-sm sm:text-sm font-bold text-foreground">{exp.title}</h3>
-                    <p className="text-accent text-sm sm:text-sm font-medium">
+                    <h3 className="text-sm sm:text-sm font-bold text-muted-foreground">{exp.title}</h3>
+                    <p className="text-muted-foreground/80 text-sm sm:text-sm font-medium">
                       {exp.company} · {exp.period}
                     </p>
                   </div>
@@ -83,7 +83,7 @@ export default function ExperienceSection() {
                     {exp.highlights.map((highlight) => (
                       <span
                         key={highlight}
-                        className="px-3 py-1 text-xs sm:text-sm bg-accent/10 text-accent rounded-full font-medium"
+                        className="px-3 py-1 text-xs sm:text-sm text- rounded-full font-medium border"
                       >
                         {highlight}
                       </span>
